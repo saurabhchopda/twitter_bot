@@ -7,7 +7,7 @@ class TwitterBot:
     def __init__(self,username,password):
         self.username = username
         self.password = password
-        self.bot = webdriver.Firefox() #webdriver for Firefox used.
+        self.bot = webdriver.Firefox() #webdriver for Firefox used
 
         
     def login(self):
@@ -43,6 +43,6 @@ class TwitterBot:
                     print("Error")
                     time.sleep(20)
 
-tb = TwitterBot('','') #enter your email and password
+tb = TwitterBot('','') #enter your twitter email and password
 tb.login()
 tb.like_tweet('')#enter the topic you want the bot to browse and like tweets from
