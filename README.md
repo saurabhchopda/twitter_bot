@@ -1,4 +1,4 @@
-# twitter_bot
+# Twitter bot
 
 A twitter bot to scroll through tweets and like tweets from a specific topic.
 
